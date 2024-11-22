@@ -2,7 +2,5 @@ target
 *.code-workspace
 .vscode
 .idea
-deploy/.build
 request-benchmarks.json
-volume
 cdk.context.json
