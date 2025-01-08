@@ -6,6 +6,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0](https://github.com/umccr/htsget-rs/compare/htsget-axum-v0.2.2...htsget-axum-v0.3.0) - 2025-01-08
+
+### Added
+
+- *(config)* add cargo package filled service info fields
+- [**breaking**] add pre-filled package info, description and repository url to the service info endpoint
+
+### Fixed
+
+- service info group, artifact and version, and add flexibility in configuration
+
+### Other
+
+- rename s3-storage to aws and url-storage to url
+- add location concept and move advanced config to its own module
+- grammar and typos
+- re-word and simplify, add quick starts where applicable
+
 ## [0.2.2](https://github.com/umccr/htsget-rs/compare/htsget-axum-v0.2.1...htsget-axum-v0.2.2) - 2024-10-22
 
 ### Other
