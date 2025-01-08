@@ -6,6 +6,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.13.0](https://github.com/umccr/htsget-rs/compare/htsget-config-v0.12.0...htsget-config-v0.13.0) - 2025-01-08
+
+### Added
+
+- *(config)* add cargo package filled service info fields
+- [**breaking**] add pre-filled package info, description and repository url to the service info endpoint
+- *(config)* implement path-based locations
+
+### Fixed
+
+- *(config)* locations prefix should not be appended to the id so that there is not a double prefix
+- service info group, artifact and version, and add flexibility in configuration
+
+### Other
+
+- *(config)* add details to service_info config specifying custom values and overriding defaults
+- *(config)* add test for service info
+- use `--all-features` in config examples
+- rename s3-storage to aws and url-storage to url
+- *(config)* ensure all examples and example files are working
+- update docs for path-based and regex config
+- move cors into advanced and add support for mirrored headers and methods
+- add location concept and move advanced config to its own module
+- grammar and typos
+- fix new clippy warnings
+- re-word and simplify, add quick starts where applicable
+
 ## [0.12.0](https://github.com/umccr/htsget-rs/compare/htsget-config-v0.11.0...htsget-config-v0.12.0) - 2024-10-16
 
 ### Added

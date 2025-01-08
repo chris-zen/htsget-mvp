@@ -1,6 +1,6 @@
 [package]
 name = "htsget-storage"
-version = "0.2.1"
+version = "0.2.2"
 rust-version = "1.83"
 authors = ["Marko Malenic <mmalenic1@gmail.com>"]
 edition = "2021"
@@ -58,8 +58,8 @@ thiserror = "1"
 tracing = "0.1"
 base64 = "0.22"
 
-htsget-config = { version = "0.12.0", path = "../htsget-config", default-features = false }
-htsget-test = { version = "0.7.1", path = "../htsget-test", features = ["http"], default-features = false }
+htsget-config = { version = "0.13.0", path = "../htsget-config", default-features = false }
+htsget-test = { version = "0.7.2", path = "../htsget-test", features = ["http"], default-features = false }
 
 [dev-dependencies]
 tower-http = { version = "0.6", features = ["fs"] }
